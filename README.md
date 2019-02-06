@@ -64,8 +64,8 @@ Finally you can create the nav bar structure as below.
     Below are default values
     
     'navWidth': 100,
-    'upIconClass': 'fa fa-arrow-circle-up',
-    'downIconClass': 'fa fa-arrow-circle-down'
+    'upIconClass': 'fa fa-angle-double-up',
+    'downIconClass': 'fa fa-angle-double-down'
     
     Can be used as below
 
