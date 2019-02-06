@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InexNavBar from Inexsoft</title>
+
+    <link rel="stylesheet" href="css/style.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-inexnavbar.js"></script>
+</head>
+
+<body>
+
+    <script>
+        $(document).ready(function(){
+            $('.inexnavbar').displayInexNavBar();            
+        });
+
+        </script>
+    
+    <div class="inexnavbar">
+        <nav>
+            <ul class="main-menu">
+                <li ><a href='#'>Main Item1</a></li>
+                <li ><a href='#'>Main Item2</a></li>
+                <li ><a href='#'>Main Item3</a>
+                <ul class="sub-menu">
+                    <li><a href='#'>Sub Menu1 Item1 </a></li>
+                    <li><a href='#'>Sub Menu1 Item2 </a></li>
+                    <li ><a href='#'>Sub Menu1 Item3 </a>
+                    <ul class="sub-menu">
+                            <li><a href='#'>Sub Menu1 Sub Menu1 Item1 </a></li>
+                            <li><a href='#'>Sub Menu1 Sub Menu1 Item2 </a></li>
+                            <li><a href='#'>Sub Menu1 Sub Menu1 Item3 </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+                <li ><a href='#'>Main Item4</a>
+                <ul class="sub-menu">
+                        <li><a href='#'>Sub Menu2 Item1 </a></li>
+                        <li><a href='#'>Sub Menu2 Item2 </a></li>
+                        <li><a href='#'>Sub Menu2 Item3 </a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a class="nav-icon"><i class="material-icons">view_headline</i></a>
+        </nav>
+
+    </div>
+
+</body>
+
+</html>

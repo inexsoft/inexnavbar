@@ -1,0 +1,139 @@
+/*******************************************************************************
+ * Copyright 2019 Venura Sasanka Abeysinghe Abeysinghe Achchige Don @ Inexsoft
+ * 
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ * 
+ *   http://www.apache.org/licenses/LICENSE-2.0
+ * 
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ ******************************************************************************/
+
+*,*::after,*::before{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main-menu{
+    display: flex;
+
+    & li{
+        list-style: none;
+        padding: 1%;
+       background-color: #dc1616;
+        position: relative;
+        border: 1px solid #fff;
+        
+    }
+      
+    & li:hover{
+        background-color: #636161; 
+        transition: all 1s ease-out;
+    }
+
+
+    & li a{
+        color: rgb(250, 228, 228);
+        text-decoration: none;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    & .current{
+        background-color: #000;
+
+      }
+}
+
+.sub-menu{
+    display: none;
+    & li{
+        padding:5%;
+        margin-bottom: 1%;
+    }
+}
+
+.nav-icon{
+    display: none;
+}
+
+.sub-pointer {
+    color:#fff;
+    float: right;
+}
+
+.sub-menu{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    padding: 2%;
+}
+
+
+
+
+@media screen and (max-width: 980px) { 
+
+    .sub-menu{
+        position: relative;
+        padding: 1%;
+
+        & li{
+            padding: 3%;
+        }
+    }
+
+    .nav-icon{
+      display: inline-block;
+      cursor: pointer;
+      position: absolute;
+      z-index: 3;
+      top:0;
+      right: 0;
+      & i{
+        font-size: 300%;
+        color: #dc1616;
+      }
+      
+    }
+  
+    .main-menu{
+      display: none;
+      padding: 2%;
+      background-color: #636161;
+
+
+      & li{  
+        width: 100%;
+        padding: 3%;
+      }
+    }
+  
+    .mobile-nav-open{
+      display: flex;
+      flex-direction: column;
+      padding-top:10%;
+    
+    }
+  
+    .mobile-nav-close{
+
+      display: none;
+    }
+    
+    .menu {
+      width: 100%;
+      padding: 2%;
+  
+    }
+  
+  }
+
+
