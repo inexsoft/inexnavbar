@@ -1,6 +1,6 @@
 {
   "name": "@inexsoft/inexnavbar",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A simple easy to use responsive nav bar/ Menu bar JQuery Plugin",
   "main": "jquery-inexnavbar.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "jquery": ">=3.3.1",
-	"node-sass":">=4.11.0"
+    "node-sass": ">=4.11.0"
   },
   "repository": {
     "type": "git",
