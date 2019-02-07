@@ -1,0 +1,28 @@
+{
+  "name": "@inexsoft/inexnavbar",
+  "version": "1.0.0",
+  "description": "A simple easy to use responsive nav bar/ Menu bar JQuery Plugin",
+  "main": "jquery-inexnavbar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+   "dependencies": {
+    "jquery": ">=3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inexsoft/inexnavbar.git"
+  },
+  "keywords": [
+    "jquery-plugin",
+    "ecosystem:jquery",
+    "inexnavbar",
+    "inexsoft"
+  ],
+  "author": "Venura Sasanka Abeysinghe Abeysinghe Achchige Don",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/inexsoft/inexnavbar/issues"
+  },
+  "homepage": "https://github.com/inexsoft/inexnavbar#readme"
+}
